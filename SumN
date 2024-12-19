@@ -1,5 +1,10 @@
-def sum_of_natural_numbers(n):
+# Sum of natural number upto n 
+
+def sum(n):
     return n * (n + 1) // 2
 
 n = int(input("Enter a number: "))
-print("Sum of natural numbers up to", n, "is:", sum_of_natural_numbers(n))
+print("Sum of natural numbers up to", n, "is:", sum(n))
+
+
+
